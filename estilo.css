@@ -1,0 +1,90 @@
+/* 1. O fundo da página deve ter uma cor suave. */
+body{
+    background-color: rgb(173, 224, 224);
+    font-family: Arial, sans-serif;
+}
+
+/* 2. O título (<h1>) deve ter uma cor diferente e estar centralizado. */
+h1{
+    color: darkblue;
+    text-align: center;
+}
+
+h3{
+    color: darkblue;
+    text-align: center;
+}
+
+/* O parágrafo (<p>) deve ter um tamanho de fonte maior e ser justificado. */
+p{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* 4. A lista (<ul>) deve ter um espaçamento maior entre os itens. */
+ul{
+    padding-left: 20px;
+}
+
+ul li{
+    margin-bottom: 10px;
+}
+
+/* 5. A imagem (<img>) deve ter bordas arredondadas e um tamanho adequado. */
+img{
+    border-radius: 10px;
+  max-width: 25%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+/* A tabela(<table>) deve estar estilizada. */
+table{
+
+border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+
+/* O link (<a>) deve mudar de cor quando o usuário passar o mouse sobre ele. */
+a{
+    color: #014d99;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #014d99;
+    text-decoration: underline;
+
+}
+
+/* Botão */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #003b63;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #019b3c;
+}
+
+/* Área da mensagem */
+#mensagem-area {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 15px;
+  color: #000000;
+}
